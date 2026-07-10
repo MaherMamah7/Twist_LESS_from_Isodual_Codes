@@ -1,6 +1,6 @@
 # Dual-LESS
 
-**Author of the Dual-LESS modification:** Maher Mamah.
+**Author:** Maher Mamah.
 
 This repository is a modified version of the **LESS** post-quantum signature
 scheme. The Dual-LESS twist and its implementation (hidden-isodual key
