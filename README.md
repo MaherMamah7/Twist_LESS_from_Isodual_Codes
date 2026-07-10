@@ -82,37 +82,6 @@ parameter sets define the `DUAL_HIDDEN_C0` macro internally).
 
 ---
 
-# Original LESS README
-
-The submission for LESS contains the following:
-
-• Reference_Implementation
-
-A reference implementation of the signature LESS as a C99 library. The 
-reference implementation library does not provide a main() function, and is
-intended to be compiled and linked to a binary. The required NIST API is 
-present in `Reference_Implementation/include/api.h`. The implementation employ 
-a provided generic keccak implementation.
-
-• Optimized_Implementation
-
-We provide multiple different optimized versions of the LESS signature scheme.
-In total we provide two different optimized implementation: an AVX2, NEON.
-The AVX2 version is optimized for modern Intel CPUs from the Haswell generation.
-The NEON version is optimized for ARM CPUs like Apple M1. 
-
-The library is organized in the same fashion as the reference one, except there 
-is no support for using libkeccak. All implementations come with their own 
-optimized SHA3 and SHAKE implementation.
-
-The following libraries/tools are needed:
-- `cmake`
-- `make`
-- `gcc`/`clang`
-- `openssl`
-- `pkg-config`
-
-
 Utilities
 ===========
 
