@@ -87,4 +87,8 @@ parameter sets define the `DUAL_HIDDEN_C0` macro internally).
 NOTE: If you are on a apple system: make sure that you use clang, by appending
     `-DCMAKE_C_COMPILER=clang`. Otherwise `LESS` will most likely not build in 
     debug mode, due to missing support for the address sanitizer.
+    
+MIT License
+
+Copyright (c) 2026 Maher Mamah
 </content>
