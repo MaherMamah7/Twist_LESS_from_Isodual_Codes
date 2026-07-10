@@ -11,7 +11,7 @@ It is built on top of the original LESS reference and optimized implementations,
 which were written by **Alessandro Barenghi, Gerardo Pelosi and Floyd
 Zweydinger** (with seed-tree contributions by **Patrick Karl**). All credit for
 the underlying LESS scheme and its codebase goes to the original authors; the
-original code is in the public domain. The original README follows below.
+original code is in the public domain. 
 
 ## The idea
 
